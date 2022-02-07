@@ -7,6 +7,7 @@ import 'codemirror/mode/css/css'
 import {Controlled as CodeMirror} from 'react-codemirror2'
 
 function Editer({displayName,value,onChange,language}) {
+  
     
   return (
       <div className='editor-container'>
